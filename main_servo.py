@@ -142,7 +142,7 @@ while not wlan.isconnected() and wlan.status() >= 0:
 # when connected flah led 5 times
 flashLed(5)
 
-client = MQTTClient(prefix+"picow-read", "192.168.2.88",user="openhabian", password="openhabian", keepalive=300, ssl=False, ssl_params={})
+client = MQTTClient(prefix+"picow-read", secrets.MQTTSERVER,secrets.MQTTUSER, secrets.MQTTPWD, keepalive=300, ssl=False, ssl_params={})
 client.set_callback(callback)
 
 startC = time.ticks_ms()
