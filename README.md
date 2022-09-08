@@ -12,7 +12,15 @@ The main_nextion.py file has to be installed as main.py on the pico w which is c
 
 The main_servo.py file has to be copied as main.py on the pico with he servo connected ton GPIO15 ( the receiver).
 
-The file secrets.py conatins the credentials for the wifi network and the mqtt server, and has to be cioied on both of the pico w's
+The file secrets.py contains the credentials for the wifi network and the mqtt server, and has to be copied on both of the pico w's
+
+The following 4 videos explkain the project ( in luxemburgish language) :
+
+https://youtu.be/UjDw3UMHHko
+https://youtu.be/8gc7P9kAx5I
+https://youtu.be/EXQWMBBuho4
+https://youtu.be/i02STwrt5Xg
+
 
 
 
